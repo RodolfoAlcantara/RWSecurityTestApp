@@ -1,0 +1,11 @@
+framework module RWSecurity {
+  umbrella header "RWSecurity.h"
+
+  export *
+  module * { export * }
+}
+
+module RWSecurity.Swift {
+    header "RWSecurity-Swift.h"
+    requires objc
+}
