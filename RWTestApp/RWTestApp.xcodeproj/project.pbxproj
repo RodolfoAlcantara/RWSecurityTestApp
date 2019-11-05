@@ -17,6 +17,7 @@
 		E28CD22E2367E759006CDAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28CD22D2367E759006CDAAB /* Assets.xcassets */; };
 		E28CD2312367E759006CDAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28CD22F2367E759006CDAAB /* LaunchScreen.storyboard */; };
 		E28CD23C2367E759006CDAAB /* RWTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28CD23B2367E759006CDAAB /* RWTestAppTests.swift */; };
+		E29E00FD237120A400AD7DBC /* BiometricsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E00FC237120A400AD7DBC /* BiometricsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		E28CD23B2367E759006CDAAB /* RWTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWTestAppTests.swift; sourceTree = "<group>"; };
 		E28CD23D2367E759006CDAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E28CD2472367E79D006CDAAB /* RWSecurity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RWSecurity.framework; sourceTree = "<group>"; };
+		E29E00FC237120A400AD7DBC /* BiometricsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				E28CD22D2367E759006CDAAB /* Assets.xcassets */,
 				E28CD22F2367E759006CDAAB /* LaunchScreen.storyboard */,
 				E28CD2322367E759006CDAAB /* Info.plist */,
+				E29E00FC237120A400AD7DBC /* BiometricsViewController.swift */,
 			);
 			path = RWTestApp;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E28CD2292367E756006CDAAB /* ViewController.swift in Sources */,
+				E29E00FD237120A400AD7DBC /* BiometricsViewController.swift in Sources */,
 				E28CD2252367E756006CDAAB /* AppDelegate.swift in Sources */,
 				E28CD2272367E756006CDAAB /* SceneDelegate.swift in Sources */,
 			);
