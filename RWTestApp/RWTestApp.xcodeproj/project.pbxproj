@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,8 @@
 		E28CD2312367E759006CDAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28CD22F2367E759006CDAAB /* LaunchScreen.storyboard */; };
 		E28CD23C2367E759006CDAAB /* RWTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28CD23B2367E759006CDAAB /* RWTestAppTests.swift */; };
 		E29E00FD237120A400AD7DBC /* BiometricsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29E00FC237120A400AD7DBC /* BiometricsViewController.swift */; };
+		E2D6E77E2373CB200024B28D /* RNCryptor in Frameworks */ = {isa = PBXBuildFile; productRef = E2D6E77D2373CB200024B28D /* RNCryptor */; };
+		E2D6E7802373CB840024B28D /* RNCryptorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D6E77F2373CB840024B28D /* RNCryptorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,7 @@
 		E28CD23D2367E759006CDAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E28CD2472367E79D006CDAAB /* RWSecurity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RWSecurity.framework; sourceTree = "<group>"; };
 		E29E00FC237120A400AD7DBC /* BiometricsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricsViewController.swift; sourceTree = "<group>"; };
+		E2D6E77F2373CB840024B28D /* RNCryptorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RNCryptorViewController.swift; path = RWTestApp/RNCryptorViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D6E77E2373CB200024B28D /* RNCryptor in Frameworks */,
 				E2087BB72367E99C00ABD50A /* RWSecurity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +108,7 @@
 			children = (
 				E28CD2462367E788006CDAAB /* Frameworks */,
 				E28CD2242367E756006CDAAB /* AppDelegate.swift */,
+				E2D6E77F2373CB840024B28D /* RNCryptorViewController.swift */,
 				E28CD2262367E756006CDAAB /* SceneDelegate.swift */,
 				E28CD2282367E756006CDAAB /* ViewController.swift */,
 				E28CD22A2367E756006CDAAB /* Main.storyboard */,
@@ -156,6 +161,9 @@
 			dependencies = (
 			);
 			name = RWTestApp;
+			packageProductDependencies = (
+				E2D6E77D2373CB200024B28D /* RNCryptor */,
+			);
 			productName = RWTestApp;
 			productReference = E28CD2212367E756006CDAAB /* RWTestApp.app */;
 			productType = "com.apple.product-type.application";
@@ -206,6 +214,9 @@
 				Base,
 			);
 			mainGroup = E28CD2182367E756006CDAAB;
+			packageReferences = (
+				E2D6E77C2373CB200024B28D /* XCRemoteSwiftPackageReference "RNCryptor" */,
+			);
 			productRefGroup = E28CD2222367E756006CDAAB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -245,6 +256,7 @@
 				E29E00FD237120A400AD7DBC /* BiometricsViewController.swift in Sources */,
 				E28CD2252367E756006CDAAB /* AppDelegate.swift in Sources */,
 				E28CD2272367E756006CDAAB /* SceneDelegate.swift in Sources */,
+				E2D6E7802373CB840024B28D /* RNCryptorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +422,7 @@
 					"$(PROJECT_DIR)/RWTestApp/Frameworks",
 				);
 				INFOPLIST_FILE = RWTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -431,6 +444,7 @@
 					"$(PROJECT_DIR)/RWTestApp/Frameworks",
 				);
 				INFOPLIST_FILE = RWTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -523,6 +537,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E2D6E77C2373CB200024B28D /* XCRemoteSwiftPackageReference "RNCryptor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RNCryptor/RNCryptor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E2D6E77D2373CB200024B28D /* RNCryptor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2D6E77C2373CB200024B28D /* XCRemoteSwiftPackageReference "RNCryptor" */;
+			productName = RNCryptor;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E28CD2192367E756006CDAAB /* Project object */;
 }
