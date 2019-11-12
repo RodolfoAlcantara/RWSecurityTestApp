@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E2087BB72367E99C00ABD50A /* RWSecurity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28CD2472367E79D006CDAAB /* RWSecurity.framework */; };
-		E2087BB82367E99C00ABD50A /* RWSecurity.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E28CD2472367E79D006CDAAB /* RWSecurity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E2087BBA2367F19200ABD50A /* RWSecurity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28CD2472367E79D006CDAAB /* RWSecurity.framework */; };
+		312C3B1C237A6CF50055D4B0 /* RWSecurity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312C3B1A237A6B590055D4B0 /* RWSecurity.framework */; };
+		312C3B1D237A6CF50055D4B0 /* RWSecurity.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 312C3B1A237A6B590055D4B0 /* RWSecurity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E28CD2252367E756006CDAAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28CD2242367E756006CDAAB /* AppDelegate.swift */; };
 		E28CD2272367E756006CDAAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28CD2262367E756006CDAAB /* SceneDelegate.swift */; };
 		E28CD2292367E756006CDAAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28CD2282367E756006CDAAB /* ViewController.swift */; };
@@ -39,7 +38,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E2087BB82367E99C00ABD50A /* RWSecurity.framework in Embed Frameworks */,
+				312C3B1D237A6CF50055D4B0 /* RWSecurity.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		312C3B1A237A6B590055D4B0 /* RWSecurity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RWSecurity.framework; sourceTree = "<group>"; };
 		E28CD2212367E756006CDAAB /* RWTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28CD2242367E756006CDAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E28CD2262367E756006CDAAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +58,6 @@
 		E28CD2372367E759006CDAAB /* RWTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RWTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28CD23B2367E759006CDAAB /* RWTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWTestAppTests.swift; sourceTree = "<group>"; };
 		E28CD23D2367E759006CDAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E28CD2472367E79D006CDAAB /* RWSecurity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RWSecurity.framework; sourceTree = "<group>"; };
 		E29E00FC237120A400AD7DBC /* BiometricsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricsViewController.swift; sourceTree = "<group>"; };
 		E2D6E77F2373CB840024B28D /* RNCryptorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RNCryptorViewController.swift; path = RWTestApp/RNCryptorViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -69,7 +68,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2D6E77E2373CB200024B28D /* RNCryptor in Frameworks */,
-				E2087BB72367E99C00ABD50A /* RWSecurity.framework in Frameworks */,
+				312C3B1C237A6CF50055D4B0 /* RWSecurity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2087BBA2367F19200ABD50A /* RWSecurity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +130,7 @@
 		E28CD2462367E788006CDAAB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E28CD2472367E79D006CDAAB /* RWSecurity.framework */,
+				312C3B1A237A6B590055D4B0 /* RWSecurity.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";

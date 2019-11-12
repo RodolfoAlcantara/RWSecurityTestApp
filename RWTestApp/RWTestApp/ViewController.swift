@@ -13,11 +13,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        
+        guard let key = UIDevice.current.identifierForVendor?.uuidString else {return}
         let nombre = "Rodolfo".data(using: .utf8)
         
         do {
-            let nombreData = try KeychainWrapper.get(account: "Nombre")
+            let nombreData = try KeychainWrapper.get(account: "Nombre", key: key)
             print(String(data: nombreData!, encoding: .utf8)!)
         } catch {
             print("Error")
@@ -25,13 +26,13 @@ class ViewController: UIViewController {
         
         
         do {
-            try KeychainWrapper.set(value: nombre!, account: "Nombre")
+            try KeychainWrapper.set(value: nombre!, account: "Nombre", key: key)
         } catch {
             print("Error")
         }
         
         do {
-            let nombreData = try KeychainWrapper.get(account: "Nombre")
+            let nombreData = try KeychainWrapper.get(account: "Nombre", key: key)
             print(String(data: nombreData!, encoding: .utf8)!)
         } catch {
             print("Error")

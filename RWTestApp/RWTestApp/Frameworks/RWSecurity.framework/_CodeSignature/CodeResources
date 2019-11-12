@@ -14,23 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		HZh+b2cWdXxN1xpeQ+/W776fZ/Y=
+		XCShRpETz+XbzT3fjzDkUffCq78=
 		</data>
 		<key>Modules/RWSecurity.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		nEThxKyFzRpqnEmayrCIxcoQsDs=
+		eMdrIpztSvd50tujQ5z0R4WM4Ho=
 		</data>
 		<key>Modules/RWSecurity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		B+R5SO/fQ7k9k7uMafOrIPgyvW8=
+		GwMxkH3RvqQ2ktKRLAPLZwGCf64=
 		</data>
 		<key>Modules/RWSecurity.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		nEThxKyFzRpqnEmayrCIxcoQsDs=
+		eMdrIpztSvd50tujQ5z0R4WM4Ho=
 		</data>
 		<key>Modules/RWSecurity.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		B+R5SO/fQ7k9k7uMafOrIPgyvW8=
+		GwMxkH3RvqQ2ktKRLAPLZwGCf64=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -57,28 +57,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BJ1YMPu/w3a1DTpUREJus8Osi5V8ra1GYcGJjI4gt+4=
+			KGwnNfRwtoTk5u/h/iCwxCiYSQgwvKWRLLP5NqUSmfI=
 			</data>
 		</dict>
 		<key>Modules/RWSecurity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MCRkBUOffiIOVAoQl5Pq8MTHFO1H4cl710EAdhnNqUI=
+			cfn4FUjOKy+TwHJIwHgmXzo69xvWO0ZORjK+RCqlxX4=
 			</data>
 		</dict>
 		<key>Modules/RWSecurity.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BJ1YMPu/w3a1DTpUREJus8Osi5V8ra1GYcGJjI4gt+4=
+			KGwnNfRwtoTk5u/h/iCwxCiYSQgwvKWRLLP5NqUSmfI=
 			</data>
 		</dict>
 		<key>Modules/RWSecurity.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MCRkBUOffiIOVAoQl5Pq8MTHFO1H4cl710EAdhnNqUI=
+			cfn4FUjOKy+TwHJIwHgmXzo69xvWO0ZORjK+RCqlxX4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

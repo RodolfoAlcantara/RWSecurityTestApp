@@ -28,7 +28,7 @@ class RNCryptorViewController: UIViewController {
         ///////////////////////
         print(String(data: encryptedData, encoding: .utf8) ?? "Parse Error")
         do {
-            try KeychainWrapper.set(value: encryptedData, account: "kSecPassword")
+            try KeychainWrapper.set(value: encryptedData, account: "kSecPassword", key: uuid)
         } catch {
             print("error")
         }
